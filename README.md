@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ads application.
+Admin panel working, with options to edit/create admins, edit/create categories.
 
-Things you may want to cover:
+Coming next:
 
-* Ruby version
+* ActiveRecord Scope
+* Auth using Pundit
 
-* System dependencies
 
-* Configuration
+Using:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version: 2.4.2
+* Rails version: 5.1.4
+* Gem Devise
+* Gem SB Admin
+* Gem Notifyjs
