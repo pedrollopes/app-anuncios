@@ -14,8 +14,12 @@ gem 'rails-i18n'
 gem 'devise'
 gem 'devise-i18n'
 
+# A library for generating fake data such as names, addresses, and phone numbers. 
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 # Rails gem of the Bootstrap based admin theme SB Admin 2.
 gem 'bootstrap_sb_admin_base_v2'
+# Help ActiveRecord::Enum feature to work fine with i18n
+gem 'enum_help'
 
 source 'https://rails-assets.org' do
   # Notifyjs
